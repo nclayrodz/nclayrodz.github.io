@@ -6,7 +6,7 @@
 
 body{
     display: flex;
-    /* Vakues not needed for live website
+    /* Values not needed for live website
     width: 1440px;
     height: 1024px; */
     flex-direction: column;
