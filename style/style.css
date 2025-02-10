@@ -6,37 +6,43 @@
 
 body{
     display: flex;
-    /* Values not needed for live website
-    width: 1440px;
-    height: 1024px; */
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
 }
 
 header{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 200px;
     padding: 10px;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    align-self: stretch;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1 0 0;
-    align-self: stretch;
-
     color: #000;
     text-align: center;
     font-family: "Italiana", serif;
     font-weight: 400;
-    font-style: normal;
-    font-size: 70px;
-    
-    }
- 
+    font-size: 40px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 10px;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    font-family: Italiana, sans-serif;
+}
+
 main{
     display: flex;
     justify-content: center;
@@ -51,30 +57,23 @@ footer{
     padding: 31px 71px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    align-self: stretch;
     color: #000;
     text-align: center;
-    font-family:Italiana,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Italiana, sans-serif;
     font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
+}
 
 .row{
     display: flex;
     width: 1440px;
-    height: 706px;
+    height: 140px;
     padding: 201px 130px;
     align-items: center;
     align-content: center;
     gap: 140px;
     flex-wrap: wrap;
     background: #ECECEC;
-
-    }
+}
 
 .subpage{
     width: 300px;
@@ -88,27 +87,21 @@ footer{
 .subpage-image{
     width: 300px;
     height: 300px;
-    flex-shrink: 0;
-    /*image provided in HTML 
-    background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
-    }
+}
 
 .label-container{
-    display: inline-flex;
+    display: flex;
     padding: 7px 69px 7px 70px;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background: linear-gradient(180deg, #3C2222 0%, rgba(161, 92, 92, 0.00) 100%);
     position: relative;
     bottom: 310px;
-    }
+}
 
 .subpage-title{
     color: #FFF;
+    font-family: Italiana, sans-serif;
+    font-size: 50px;
     text-align: left;
-    font-family: Italiana,'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
+}
