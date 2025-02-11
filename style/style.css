@@ -53,20 +53,20 @@ main{
 
 footer{
     display: flex;
-    height: 63px;
-    padding: 31px 71px;
+    height: 50px;
+    padding: 10px 71px;
     justify-content: center;
     align-items: center;
     color: #000;
     text-align: center;
     font-family: Italiana, sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .row{
     display: flex;
     width: 1440px;
-    height: 140px;
+    height: 130px;
     padding: 201px 130px;
     align-items: center;
     align-content: center;
